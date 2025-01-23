@@ -1,6 +1,8 @@
 # Personal-portfolio
 
-Project for roadmap.sh, view the project: 
+Project for roadmap.sh
+
+Project description:
 [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/portfolio-website)
 
 # Use

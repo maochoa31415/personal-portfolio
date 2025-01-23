@@ -22,11 +22,11 @@
     <title>Home page</title>
 </head>
 <body>
-    <main>
+    <main class="main-container">
         <header class="header d-flex">
             <a href="index.html" class="brand">
                 <img src="your-logo.png" class="brand-logo" />
-                Your name
+                <span class="brand-label">Your name</span>
             </a>
 
             <nav class="navigation">
@@ -41,13 +41,13 @@
 
         <section class="main-section">
             <h1>Frontend Developer</h1>
-            <p>html only with proper layout, no styling</p>
+            <p>write a description in this section</p>
         </section>
 
         <section class="description-section">
-            <section class="column">
-                <h3>Projects</h3>
-                <ul>
+            <section class="column hightlight-section p-3">
+                <h3 class="mt-0 mb-3">Projects</h3>
+                <ul class="project-list">
                     <li>HTML only portfolio</li>
                     <li>Calculator</li>
                     <li>Quiz App</li>
@@ -56,24 +56,25 @@
                 </ul>
             </section>
             <div class="column central-section">
-                <section>
-                    <h3>Work experience</h3>
+                <section class="hightlight-section p-3">
+                    <h3 class="mt-0 mb-3">Work experience</h3>
                     <span>roadmap.sh</span>
                     <p>Solve all the frontend projects</p>
                     <a href="#">Visit my profile</a>
                 </section>
-                <section>
-                    <h3>OpenSource Work</h3>
+                <section class="hightlight-section p-3">
+                    <h3 class="mt-0 mb-3">OpenSource Work</h3>
                     <p>
                         Contributed to 50 opensource projects. Made my own projectswith 200 GitHub stars.
                     </p>
+                    <a href="#">Visit my Github profile</a>
                 </section>
             </div>
-            <section class="column">
-                <h3>Education</h3>
-                <p>graduate with 3.76 out 4 CGPA. Won Acme Hackthon. Organized 30 sessions.</p>
-                <div>Cources I took</div>
-                <ul>
+            <section class="column education-section hightlight-section p-3">
+                <h3 class="mt-0 mb-3">Education</h3>
+                <p>Graduate with 3.76 out 4 CGPA. Won Acme Hackthon. Organized 30 sessions.</p>
+                <div class="mb-3">Cources I took</div>
+                <ul class="cources-took-list">
                     <li>Object Oriented programing</li>
                     <li>Data Stgructures and Algotithms</li>
                     <li>Web Engineering</li>
@@ -88,28 +89,28 @@
         </section>
 
         <section class="reviews-section">
-            <h2>Reviews from my Teachers</h2>
+            <h2 class="reviews-header">Reviews from my Teachers</h2>
             <div class="reviews">
-                <article>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div>Jane Doe</div>
-                    <div>Assistant Professor</div>
+                <article class="review">
+                    <p class="mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="text-muted">Jane Doe</div>
+                    <div class="text-muted">Assistant Professor</div>
                 </article>
-                <article>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div>Jane Doe</div>
-                    <div>Assistant Professor</div>
+                <article class="review">
+                    <p class="mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="text-muted">Jane Doe</div>
+                    <div class="text-muted">Assistant Professor</div>
                 </article>
-                <article>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div>Jane Doe</div>
-                    <div>Assistant Professor</div>
+                <article class="review">
+                    <p class="mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="text-muted">Jane Doe</div>
+                    <div class="text-muted">Assistant Professor</div>
                 </article>
             </div>
         </section>
 
         <footer>
-            <p>&copy; all rights reserved 2025</p>
+            <p class="m-0">&copy; all rights reserved 2025</p>
         </footer>
     </main>
 </body>
